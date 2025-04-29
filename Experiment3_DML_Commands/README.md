@@ -111,6 +111,107 @@ WHERE  grade >100;
 ![Screenshot 2025-04-29 124001](https://github.com/user-attachments/assets/57d14ec4-855c-4b61-8374-1114b9dec239)
 
 
+**Question 5**
+---
+-- ![Screenshot 2025-04-29 134956](https://github.com/user-attachments/assets/2e173acd-15a6-4d60-b8b9-c4b039481a65)
+
+
+```sql
+-- SELECT ename,hiredate,DATE(hiredate ,'+100 Days') AS DateAfter100Days
+FROM emp;
+```
+
+**Output:**
+![Screenshot 2025-04-29 135004](https://github.com/user-attachments/assets/5a348d18-aeeb-4137-9a5a-e08c5c24223c)
+
+
+
+**Question 6**
+---
+-- ![Screenshot 2025-04-29 135215](https://github.com/user-attachments/assets/88829371-d33e-4cd0-a174-a0926e8eabb6)
+
+
+```sql
+-- SELECT id,ROUND(decimal,3) AS  rounded_value
+FROM Calculations;
+```
+
+**Output:**
+
+![Screenshot 2025-04-29 135222](https://github.com/user-attachments/assets/5f5b5228-2fed-4803-87d2-9897b3db8567)
+
+
+**Question 7**
+---
+-- ![Screenshot 2025-04-29 135350](https://github.com/user-attachments/assets/1e205fbe-54c1-4a8a-a2af-1a9123217ee9)
+
+
+```sql
+-- DELETE FROM Customer
+WHERE LENGTH(CUST_NAME) =6;
+```
+
+**Output:**
+
+![Screenshot 2025-04-29 135415](https://github.com/user-attachments/assets/2a0b7aa7-d093-4b51-99e0-c95da4a2114d)
+
+
+**Question 8**
+---
+-- ![Screenshot 2025-04-29 135607](https://github.com/user-attachments/assets/576f2b96-fb2f-41c3-a9d9-6de324daedaf)
+
+
+```sql
+-- UPDATE Employees 
+SET salary = 8000
+WHERE employee_id =105 AND salary < 5000;
+```
+
+**Output:**
+![Screenshot 2025-04-29 135613](https://github.com/user-attachments/assets/28d12da8-8149-4782-8582-03b0f1ed09d9)
+
+
+
+**Question 9**
+---
+--![Screenshot 2025-04-29 135759](https://github.com/user-attachments/assets/d6e7d168-f8bb-4156-9070-fee806976f26)
+
+
+```sql
+-- SELECT id, value1, 
+        CASE 
+           WHEN  value1 >50 THEN 'High'
+           ELSE 'Low'
+        END AS  value_category
+FROM Calculations;
+
+```
+
+**Output:**
+![Screenshot 2025-04-29 135803](https://github.com/user-attachments/assets/9ae7a5e9-2bfd-48f3-a187-40c6d38e38c8)
+
+
+
+**Question 10**
+---
+-- ![Screenshot 2025-04-29 135949](https://github.com/user-attachments/assets/fe30c891-ce3e-47c4-9f5d-35b8ea958056)
+
+
+```sql
+-- SELECT 
+    product_id, 
+    original_price, 
+    discount_percentage,
+    original_price *discount_percentage AS discount_amount
+FROM 
+    products
+WHERE  
+    original_price * discount_percentage >50;
+```
+
+**Output:**
+
+![Screenshot 2025-04-29 135954](https://github.com/user-attachments/assets/30bfdccc-5cf0-49cd-82fd-353e4e03c637)
 
 
 
