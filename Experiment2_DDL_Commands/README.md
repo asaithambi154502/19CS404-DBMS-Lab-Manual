@@ -122,7 +122,8 @@ values(8,           'Ava Miller',    'Consultant',  'IT');
 ```
 
 **Output:**
-![Uploading Screenshot 2025-04-29 094831.png…]()
+![Screenshot 2025-04-29 124245](https://github.com/user-attachments/assets/89435e54-9c59-4711-bc20-d0f6f9f6e311)
+
 
 
 
