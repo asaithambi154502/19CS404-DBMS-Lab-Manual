@@ -212,15 +212,18 @@ WHERE AGE < 30;
 
 **Question 10**
 ---
--- Paste Question 10 here
+-- ![Screenshot 2025-04-29 151446](https://github.com/user-attachments/assets/79dfb804-513e-4811-8595-3421250804bf)
+
 
 ```sql
--- Paste your SQL code below for Question 10
+-- select medication_id, medication_name, dosage from Medications
+where dosage=(select max(dosage) from Medications)
 ```
 
 **Output:**
 
-![Output10](output.png)
+![Screenshot 2025-04-29 151451](https://github.com/user-attachments/assets/e1d4d9ed-731c-4bc3-80b3-124471823ece)
+
 
 
 ## RESULT
